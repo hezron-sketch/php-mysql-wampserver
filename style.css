@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(239, 241, 220);
+  font-family: "urbanist";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content {
+  background-color: rgba(173, 169, 169, 0.405);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+a {
+  padding: 0.5rem 1rem;
+  background-color: rgb(229, 229, 229);
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.input-group {
+  margin: 1rem;
+}
+
+input {
+  width: 10rem;
+  height: 1.8rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 0 0.6rem;
+  background-color: rgb(237, 237, 237);
+}
+
+label {
+  margin: 1rem 0;
+  font-size: large;
+  font-weight: 400;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(240, 248, 250);
+  cursor: pointer;
+  color: black;
+  font-size: large;
+  font-weight: 400;
+  font-family: urbanist;
+}
+
+.error {
+  color: red;
+  background-color: rgb(255, 228, 228);
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.5rem;
+}
+
+.success {
+  background-color: rgb(223, 255, 228);
+  color: green;
+}
+
+table th {
+  background: rgba(255, 255, 255, 0.533);
+  border-radius: 0.2rem;
+  color: rgb(77, 77, 77);
+  width: 15rem;
+  font-size: large;
+}
+
+table {
+  font-size: small;
+}
+
+table td {
+  background-color: rgba(235, 255, 239, 0.349);
+  border-bottom: 1px solid rgb(97, 112, 13);
+  padding: 0.2rem 0.2rem;
+  font-family: monospace;
+}
