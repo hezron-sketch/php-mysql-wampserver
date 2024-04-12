@@ -13,7 +13,6 @@ body {
 }
 
 .content {
-  background-color: rgba(173, 169, 169, 0.405);
   border-radius: 1rem;
   padding: 1rem 2rem;
 }
@@ -36,7 +35,7 @@ input {
   width: 10rem;
   height: 1.8rem;
   outline: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   border: 0;
   padding: 0 0.6rem;
   background-color: rgb(237, 237, 237);
